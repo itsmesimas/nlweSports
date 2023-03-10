@@ -1,0 +1,49 @@
+# Arquivo .gitignore
+
+# Exclui a pasta node_modules
+node_modules/
+
+# Exclui arquivos de log
+*.log
+
+# Exclui arquivos de backup
+*~
+
+# Exclui arquivos temporários
+.tmp/
+
+# Exclui arquivos de configuração do IDE
+.idea/
+
+# Exclui arquivos de build
+build/
+
+# Exclui arquivos de dependência do projeto
+yarn.lock
+package-lock.json
+
+# Exclui arquivos de cache do projeto
+.cache/
+
+# Pastas do projeto web
+/web/node_modules/
+/web/build/
+
+# Pastas do projeto mobile
+/mobile/node_modules/
+/mobile/build/
+
+# Pastas do servidor
+/server/node_modules/
+/server/build/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
