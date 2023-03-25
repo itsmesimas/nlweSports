@@ -1,5 +1,7 @@
 import { GameController } from 'phosphor-react-native';
+import { useContext } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
+import { LoadContext } from '../../contexts/LoadContext';
 import { THEME } from '../../theme';
 import { DuoInfo } from './DuoInfo';
 
@@ -21,6 +23,7 @@ interface Props {
 }
 
 export function DuoCard({ data, onConnect }: Props) {
+	const { loading } = useContext(LoadContext);
 	return (
 		<View style={styles.container}>
 			<DuoInfo label="Nome" value={data.name} />
@@ -45,9 +48,9 @@ export function DuoCard({ data, onConnect }: Props) {
 				colorValue={`${data.useVoiceChannel ? THEME.COLORS.SUCCESS : THEME.COLORS.ALERT}`}
 			/>
 
-			<TouchableOpacity style={styles.button} onPress={onConnect}>
+			<TouchableOpacity style={styles.button} onPress={onConnect} disabled={loading}>
 				<GameController color={THEME.COLORS.TEXT} size={20} />
-				<Text style={styles.buttonTitle}></Text>
+				<Text style={styles.buttonTitle}>Conectar</Text>
 			</TouchableOpacity>
 		</View>
 	);

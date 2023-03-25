@@ -76,21 +76,6 @@ app.get('/ads/:id/discord', async (request, response) => {
 });
 
 app.post('/games/:id/ads', async (request, response) => {
-	/*
-	{
-	"name": "grazyy",
-	"yearsPlaying": 2,
-	"discord": "grazyy#3234",
-	"weekDays": [
-		0,
-		5,
-		6
-	],
-	"hourStart": "12:00",
-	"hourEnd": "15:00",
-	"useVoiceChannel": true
-}
-	*/
 	const gameId = request.params.id;
 	const body: any = request.body;
 	const ad = await prisma.ad.create({

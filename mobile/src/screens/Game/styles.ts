@@ -23,7 +23,6 @@ export const styles = StyleSheet.create({
 		height: 160,
 		borderRadius: 8,
 		marginTop: 32,
-		objectFit: '',
 	},
 	containerList: {
 		width: '100%',

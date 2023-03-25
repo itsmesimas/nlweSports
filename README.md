@@ -18,7 +18,7 @@
 
 
 <p align="center">
-  <img alt="" src="https://user-images.githubusercontent.com/21183446/190916326-893c26ee-b560-4468-8c14-b1fea9391200.png" />
+  <img alt="" src="https://repository-images.githubusercontent.com/612006495/65e03be6-93bb-4e89-86c9-3a1f82ec1314" />
 </p>
 
 
@@ -31,7 +31,7 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Next](https://nextjs.org/)
+- [Vite](https://vitejs.dev/)
 - [Prisma](https://www.prisma.io)
 - [Tailwindcss](https://tailwindcss.com)
 - [TypeScript](https://www.typescriptlang.org)
@@ -58,6 +58,7 @@ Clone o repositório e acesse a pasta.
 ```bash
 $ git clone https://github.com/simaofreire/nlweSports
 
+```
 Para iniciar o projeto:
 
 Escolha a pasta do server e abra o bash
@@ -101,6 +102,7 @@ Clone o repositório e acesse a pasta.
 Para iniciar o projeto:
 
 Escolha a pasta da versão web e abra o bash
+```
 
 ```bash
 

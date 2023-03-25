@@ -6,7 +6,7 @@ import logoImg from '../../assets/logo-nlw-esports.png';
 import { Background } from '../../components/Background';
 import { GameCard, GameCardProps } from '../../components/GameCard';
 import { Heading } from '../../components/Heading';
-import Api from '../../services/Api';
+import Api from '../../services/api';
 import { styles } from './styles';
 
 export function Home() {
@@ -16,10 +16,10 @@ export function Home() {
 	const handleOpenGame = ({ id, title, bannerUrl }: GameCardProps) => {
 		navigation.navigate('game', { id, title, bannerUrl });
 	};
+
 	const getGames = async () => {
 		try {
 			const { data, status } = await Api.get('/games');
-
 			if (status === 200) {
 				setGames(data);
 			}
