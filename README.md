@@ -110,7 +110,7 @@ Escolha a pasta da versão web e abra o bash
 $ npm install
 
 # Iniciar o projeto
-$ npm run dev
+$ expo start || npx expo start || npm run android
 
 ```
 
