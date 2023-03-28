@@ -37,9 +37,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [TypeScript](https://www.typescriptlang.org)
 
 
+## 🚀 Como executar
 
 
-# 🚀 Como clonar o repositório
+# 🚀 Clonar o repositório
 
 Copiee cole o código abaixo:
 
@@ -50,8 +51,7 @@ $ git clone https://github.com/simaofreire/nlweSports
 ```
 
 
-
-## 🚀 Como executar o server
+## 🚀 Server
 
 Acesse a pasta do server.
 
@@ -74,7 +74,7 @@ $ npm run dev
 
 A aplicação pode ser acessada em [`localhost:3000`](http://localhost:3000).
 
-## 🚀 Como executar a versão web
+## 🚀Versão web
 
 Acesse a pasta.
 ```bash
@@ -96,7 +96,7 @@ $ npm run dev
 
 ```
 
-## 🚀 Como executar a versão mobile
+## 🚀Versão mobile
 
 Acesse a pasta.
 
