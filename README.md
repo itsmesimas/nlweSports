@@ -76,7 +76,7 @@ A aplicação pode ser acessada em [`localhost:3000`](http://localhost:3000).
 
 ## Versão web
 
-Acesse a pasta.
+Acesse a pasta web.
 ```bash
 $ cd web/
 
@@ -98,7 +98,7 @@ $ npm run dev
 
 ## Versão mobile
 
-Acesse a pasta.
+Acesse a pasta mobile.
 
 ```bash
 $ cd mobile/
@@ -111,6 +111,7 @@ $ cd mobile/
 $ npm install
 
 # Iniciar o projeto
+# Escolha um método abaixo
 $ expo start || npx expo start || npm run android
 
 ```
