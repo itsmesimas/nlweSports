@@ -35,6 +35,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Prisma](https://www.prisma.io)
 - [Tailwindcss](https://tailwindcss.com)
 - [TypeScript](https://www.typescriptlang.org)
+- [Framer](https://www.framer.com/motion/?utm_source=google&utm_medium=adwords&utm_campaign=TW-WW-All-GS-UA-Traffic-20190326-Brand.Bmm_)
 
 
 # 🚀 Como executar
