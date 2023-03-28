@@ -53,15 +53,14 @@ $ git clone https://github.com/simaofreire/nlweSports
 
 ## 🚀 Como executar o server
 
-Clone o repositório e acesse a pasta.
+Acesse a pasta do server.
 
 ```bash
-$ git clone https://github.com/simaofreire/nlweSports
+$ cd server/
 
 ```
 Para iniciar o projeto:
 
-Escolha a pasta do server e abra o bash
 ```bash
 
 # Instalar as dependências
@@ -77,7 +76,11 @@ A aplicação pode ser acessada em [`localhost:3000`](http://localhost:3000).
 
 ## 🚀 Como executar a versão web
 
-Clone o repositório e acesse a pasta.
+Acesse a pasta.
+```bash
+$ cd web/
+
+```
 
 Para iniciar o projeto:
 
@@ -95,13 +98,11 @@ $ npm run dev
 
 ## 🚀 Como executar a versão mobile
 
-Clone o repositório e acesse a pasta.
+Acesse a pasta.
 
 ```bash
+$ cd mobile/
 
-Para iniciar o projeto:
-
-Escolha a pasta da versão web e abra o bash
 ```
 
 ```bash
